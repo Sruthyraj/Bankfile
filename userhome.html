@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+        <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <dic class="col-4"></dic>
+            <dic class="col-4">
+                <h3>Welcome to Home Page</h3>
+            </dic>
+            <dic class="col-4"></dic>
+        </div>
+
+        <form>
+            <div class="mb-3">
+                <label for="acno" class="form-label">Account No</label>
+                <input type="text" class="form-control" id="accno" aria-describedby="emailHelp">
+
+            </div>
+            <div class="mb-3">
+                <label for="passwrd" class="form-label">Password</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="mb-3">
+                <label for="amt" class="form-label">Amount</label>
+                <input type="password" class="form-control" id="amt">
+            </div>
+
+            <div class="row">
+                <dic class="col-6">
+                    <label for="passwrd" class="form-label">Click here for Deposit</label>
+                    <button type="button" class="btn btn-primary" onclick="Bank.deposit()">Deposit</button>
+                </dic>
+                <dic class="col-6">
+                    <label for="passwrd" class="form-label">Click here for Withdraw</label>
+                    <button type="button" class="btn btn-primary" onclick="Bank.withdraw()">Withdraw</button>
+                </dic>
+            </div>
+        </form>
+
+
+
+    </div>
+</body>
+
+</html>
